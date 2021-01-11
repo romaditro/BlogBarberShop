@@ -8,11 +8,115 @@
     <meta name="author" content="Rodrigo Diaz Troncoso">
     <meta name="description" content="Desafio Blog Barbershop">
     <meta name="keywords" content="desafio, barberia">
+
+    <!-- Mi style -->
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Blog BarberShop</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio"><img src="assets/img/Logo.png" alt="Logo" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active active-pink" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Horas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <header class="py-5 text-white text-center">
+        <div class="container my-5 py-5">
+            <h1 class="my-5 py-5">5 formas de cuidar <br> tu corte de cabello</h1>
+        </div>
+        <i class="fas fa-angle-double-down fa-3x py-3"></i>
+    </header>
+
+    <main class="pt-5 main-content">
+        <article class="article container">
+            <section>
+                <div class="article__date">
+                    <p>12 de abril de 2018</p>
+                </div>
+                <!-- article__date -->
+                <div class="article__content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque esse aut consequatur vel, est id, omnis, odio qui temporibus totam neque? Delectus placeat possimus ducimus culpa aut vel sed non!</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cum nihil corrupti recusandae quia mollitia, inventore, assumenda qui quisquam non ducimus fugit eveniet. Culpa officiis veritatis quis! Sunt maiores, harum.Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Quas quo temporibus iusto repellat vitae. Fuga, possimus neque quo consequuntur sint, nostrum laudantium nobis in eos eius perspiciatis ullam cumque, blanditiis!</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque beatae repellat earum similique, veritatis dicta non provident nemo vero, magnam iure corrupti, ipsam sit. Distinctio ullam id quo veritatis fugit?</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, amet consequuntur corrupti dolorum sunt soluta perspiciatis totam nam quae aliquam doloribus. Quod nulla in obcaecati temporibus, maxime magnam, iusto necessitatibus.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis exercitationem cupiditate molestiae sequi saepe ipsa quod harum. Dolore repellendus deleniti sint quisquam aut. Fuga tempore voluptate, reiciendis totam nobis pariatur.Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit. Deleniti perferendis ratione, eius ullam dolorem a quas beatae ipsum consequatur nobis aut, vel, hic iste fugiat distinctio. Asperiores aperiam, commodi necessitatibus!</p>
+                </div>
+                <!-- article__content -->
+                <div class="py-5 mb-5 buttons">
+                    <button class="button btn btn-secondary">Compartir</button>
+                    <button class="button btn btn-secondary">Comentar en Twitter</button>
+                </div>
+            </section>
+        </article>
+        <!-- article container -->
+        <section class="article-footer py-5">
+            <div class="container py-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid article-footer__image" src="assets/img/naomi-thai.png" alt="author">
+                    </div>
+                    <div class="col-md-3 article-footer__author">
+                        <h2 class="article-footer__info">Naomi Thai</h2>
+                        <p class="article-footer__info article-footer__info-pink"><a class="article-footer__info-link" href="#">@Naothai</a></p>
+                        <p class="article-footer__info article-footer__info-pink"><a class="article-footer__info-link" href="#">depelos.com</a></p>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <p class="article-footer__about-author">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolorem nulla natus quo explicabo molestias sint eius architecto, eum aliquid. Corporis excepturi voluptas vitae at eligendi nobis modi dolore esse!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagination-bg-platinum">
+            <div class="container">
+                <nav>
+                    <ul class="pagination d-flex justify-content-center py-5">
+                        <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black py-5 text-center">
+        <img src="assets/img/logo.png" alt="logo footer" class="logo-footer">
+    </footer>
 </body>
 
 </html>
