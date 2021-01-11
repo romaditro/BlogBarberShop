@@ -1,10 +1,10 @@
 .article {
     color: $nickel;
-    &__date {
+    &__fecha {
         font-family: $playfair;
         line-height: 6rem;
     }
-    &__content {
+    &__lorem {
         line-height: 3rem;
     }
 }
@@ -36,7 +36,7 @@
             color: $platinum;
         }
     }
-    &__about-author {
+    &__lorem-naomi {
         line-height: 2rem;
         color: $nickel;
         font-size: $small;
@@ -58,7 +58,7 @@
 
 .pagination {
     margin-bottom: 0;
-    &-bg-platinum {
+    &-color {
         background-color: $platinum;
     }
 }

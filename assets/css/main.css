@@ -9910,6 +9910,75 @@ h6 {
   font-style: italic;
 }
 
+.article {
+  color: #6C6E70;
+}
+.article__fecha {
+  font-family: "Playfair Display", serif;
+  line-height: 6rem;
+}
+.article__lorem {
+  line-height: 3rem;
+}
+
+.article-footer {
+  border-top: solid 2px #E6E7E7;
+}
+.article-footer__image {
+  border-radius: 50%;
+}
+@media (max-width: 767.98px) {
+  .article-footer__image {
+    width: 180px;
+    margin-bottom: 2rem;
+  }
+}
+.article-footer__info {
+  margin-bottom: 0;
+}
+.article-footer__info-pink {
+  color: #ECBCBA;
+}
+.article-footer__info-link {
+  text-decoration: none;
+  color: inherit;
+}
+.article-footer__info-link:hover {
+  text-decoration: none;
+  color: #121619;
+}
+.article-footer__info-link:active {
+  text-decoration: none;
+  color: #E6E7E7;
+}
+.article-footer__lorem-naomi {
+  line-height: 2rem;
+  color: #6C6E70;
+  font-size: 12px;
+}
+@media (max-width: 767.98px) {
+  .article-footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .buttons {
+    text-align: center;
+  }
+}
+
+.button {
+  margin-right: 0.5rem;
+}
+
+.pagination {
+  margin-bottom: 0;
+}
+.pagination-color {
+  background-color: #E6E7E7;
+}
+
 header {
   background-image: url("../images/post-image.jpg");
   background-repeat: none;
